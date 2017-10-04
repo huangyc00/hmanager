@@ -10,3 +10,11 @@ spring:
     registry:
       address: zookeeper://127.0.0.1:2181
     scan: com.hyc.controller.product
+
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/h_product?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456

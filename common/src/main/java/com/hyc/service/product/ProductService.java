@@ -1,6 +1,8 @@
 package com.hyc.service.product;
 
-public interface ProductService {
+import com.hyc.entity.item.Order;
+import com.hyc.entity.product.Product;
+import com.hyc.service.base.BaseService;
 
-    String hello(String str);
+public interface ProductService extends BaseService<Product> {
 }
